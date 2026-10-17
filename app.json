@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "crampo",
+    "name": "Crampo",
     "slug": "crampo",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,10 +16,25 @@
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.sameerr35.crampo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "@react-native-community/datetimepicker"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "ffefef5f-4cb2-4c68-b13c-d630b186ad02"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/ffefef5f-4cb2-4c68-b13c-d630b186ad02"
     }
   }
 }
